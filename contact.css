@@ -234,7 +234,7 @@ html,body{
     color: black;
 }
 
-@media screen and (max-width:500px){
+@media(max-width:500px){
     body{
         width: 360px;
         height: 640px;
