@@ -1,0 +1,641 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+}
+
+.logo img{
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+    width: 30.5px;
+    height: 50px;
+}
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    right: 60px;
+    position: absolute;
+    width: 580px;
+    height: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #dfdfdf;
+    font-size: 10px;
+    font-weight: bold;   
+    transition: all ease-in-out .5s;
+}
+
+.nav a:nth-child(1){
+    color: #dfdfdf;
+}
+
+.nav a:nth-child(2){
+    color: #dfdfdf;
+}
+
+.nav a:nth-child(3){
+    color: #dfdfdf;
+}
+
+.nav a:nth-child(4){
+    color: #dfdfdf;
+}
+
+.nav a:nth-child(1):hover{
+    color: rgb(38, 39, 39);
+}
+
+.nav a:nth-child(2):hover{
+    color: rgb(38, 39, 39);
+}
+
+.nav a:nth-child(3):hover{
+    color: rgb(38, 39, 39);
+}
+
+.nav a:nth-child(4):hover{
+    color: rgb(38, 39, 39);
+}
+
+.nav a:nth-child(5):hover{
+    color: rgb(38, 39, 39);
+}
+
+.S h2{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 20px;
+    font-size: 11px;
+    transform: rotate(-90deg);
+    color: rgb(214, 214, 214);
+}
+
+.S h2:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.pix{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 450px;
+    height: 300px;
+}
+
+.pix h1{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #fff;
+}
+
+.pix h2{
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pix .bt{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 90px;
+    border-radius: 1.5px;
+    height: 30px;
+    background-color: rgb(255, 255, 255, 0.2);
+    transition: all ease-in-out .3s;
+}
+
+.pix .bt:hover{
+    background-color: #fff;
+}
+
+.pix .bt a:hover{
+    color: rgb(19, 109, 109);
+}
+
+.pix .bt a{
+    text-decoration: none;
+    font-size: 9px;
+    color: #fff;    
+    transition: all ease-in-out .5s;
+}
+
+.l{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    background-color: #fff;
+    color: #1f1e1e;
+}
+
+.l h3{
+    margin-top: 25px;
+    margin-left: 80px;
+    font-size: 13px;
+}
+
+#back1{
+    width: 100%;
+    height: 100%;
+}
+
+#back1 .ar {
+    margin-left: 70px;
+    width: 500px;
+    height: 200px;
+}
+
+#back1 .ar h1{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+    color: #1f1e1e;
+    font-size: 32px;
+}
+
+#back1 .s1 img{
+    margin-left: 120px;
+    margin-top: 60px;
+    width: 350px;
+    height: 450px;
+    transition: ease-in-out 0.5s;
+}
+
+#back1 .s1 img:hover{
+    transform: scale(1.05);
+   
+}
+
+#back1 .l1{
+    position: absolute;
+    margin-top: -64px;
+    margin-left: 120px;
+    width: 250px;
+    height: 60px;
+    background-color: #fff;
+}
+
+.l1 p{
+    color: #FF4848;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.l1 h3{
+    margin-left: 30px;
+    font-size: 11px;
+}
+
+#back1 .pp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100%;
+    left: 44%;
+    position: absolute;
+    width: 150px;
+    height: 100%;
+}
+
+#back1 .pp h1{
+    margin-top: 600px;
+    transform: rotate(-90deg);
+    font-size: 200px;
+    color: rgb(245, 245, 245,0.7);
+}
+
+.r img{
+    margin-top: -630px;
+    position: absolute;
+    right: 110px;
+    width: 400px;
+    height: 450px;
+    transition: ease-in-out 0.5s;
+}
+
+#back1 .r img:hover{
+    transform: scale(1.05);
+}
+
+.r .l2{
+    position: absolute;
+    right: 260px;
+    margin-top: -240px;
+    width: 250px;
+    height: 60px;
+    background-color: #fff;
+}
+
+.r .l2 p{
+    color: #FF4848;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.r .l2 h3{
+    margin-left: 30px;
+    font-size: 11px;
+}
+
+.rit img{
+    margin-top: -50px;
+    position: absolute;
+    right: 100px;
+    width: 330px;
+    height: 400px;
+    transition: ease-in-out 0.5s;
+}
+
+#back1 .rit img:hover{
+    transform: scale(1.05);
+}
+
+.rit .l3{
+    position: absolute;
+    right: 180px;
+    margin-top: 290px;
+    width: 250px;
+    height: 60px;
+    background-color: #fff;
+}
+
+.rit .l3 p{
+    color: #FF4848;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.rit .l3 h3{
+    margin-left: 30px;
+    font-size: 11px;
+}
+
+.left img{
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 390px;
+    height: 450px;
+    transition: ease-in-out 0.5s;
+}
+
+#back1 .left img:hover{
+    transform: scale(1.05);
+}
+
+.left .l4{
+    position: absolute;
+    margin-top: -64px;
+    width: 250px;
+    height: 60px;
+    margin-left: 120px;
+    background-color: #fff;
+}
+
+.left .l4 p{
+    color: #FF4848;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.left .l4 h3{
+    margin-left: 30px;
+    font-size: 11px;
+}
+
+.abt{
+    margin-top: -100px;
+    right: 80px;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+}
+
+.abt .ab{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top:10px;
+    margin-left: 50px;
+    width: 50px;
+    height: 35px;
+    background-color: #000;
+}
+
+.abt .ab p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.abt .ab1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top:-35px;
+    margin-left: 100px;
+    width: 100px;
+    height: 35px;
+}
+
+.abt .ab1 p{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.abt .par{
+    color: #808080;
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    width: 100%;
+    height: 80px;
+    background: rgba(194, 193, 193, 0.3);
+}
+
+.footer .lin{
+    margin-top: 23.5px;
+    width: 1px;
+    height: 15px;
+    background-color: #c5c3c3;
+}
+
+.footer .lin1{
+    margin-top: 23.5px;
+    width: 1px;
+    height: 15px;
+    background-color: #c5c3c3;
+}
+
+.footer .lin2{
+    margin-top: 23.5px;
+    width: 1px;
+    height: 15px;
+    background-color: #c5c5c5;
+}
+
+.footer a{
+    width: auto;
+    height: 20px;
+    z-index: 1;
+    padding: 0 15px;
+    margin-top: 25px;
+    font-size: 8px;
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+.footer .last h3{
+    z-index: 1;
+    margin-left: -230px;
+    position: absolute;
+    margin-top: 60px;
+    color: #b4b4b4;
+    font-size: 8px;
+}
+
+@media screen and (max-width:500px){
+
+    #container{
+        width: 360px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .logo img{
+        width: 20px;
+        height: 35px;
+    }
+
+    #container .nav{
+        width: 250px;
+        margin-top: 20px;
+        left: 85px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #container .nav a{
+        font-size: 8px;
+    }
+
+    #container .S{
+       margin-left: -25px;
+    }
+
+    #container .S h2{
+        font-size: 8px;
+    }
+
+    #container .pix{
+        width: 300px;
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+
+    #container .pix h1{
+        margin-left: 13px;
+        font-size: 20px;
+    }
+
+    #container .pix h2{
+        margin-top: 10px;
+    }
+
+
+    #back1 .ar{
+        width: 200px;
+    }
+
+    #back1 .ar h1{
+        margin-top: 50px;
+        margin-left: -30px;
+        font-size: 20px;
+    }
+
+    #back1 .s1 img{
+        margin-left: 50px;
+        margin-top: -30px;
+        width: 250px;
+        height: 350px;
+    }
+
+    #back1 .s1 .l1{
+        margin-top: -54px;
+        height: 50px;
+        width: 180px;
+    }
+
+    #back1 .s1 .l1 p{
+        margin-top: 10px;
+        font-size: 9px;
+    }
+
+    #back1 .s1 .l1 h3{
+        margin-top: 2px;
+        font-size: 10px;
+    }
+
+    #back1 .r img{
+        width: 250px;
+        height: 350px;
+        right: 60px;
+        margin-top: 70px;
+    }
+
+    #back1 .r .l2{
+        width: 180px;
+        height: 50px;
+        margin-top: 370px;
+        right: 60px;
+    }
+
+    #back1 .r .l2 p{
+        margin-top: 10px;
+        font-size: 9px;
+    }
+
+    #back1 .r .l2 h3{
+        margin-top: 2px;
+        font-size: 10px;
+    }
+    
+    #back1 .rit img{
+        width: 250px;
+        height: 350px;
+        left: 50px;
+        margin-top: 500px;
+    }
+
+    #back1 .rit .l3{
+        width: 180px;
+        height: 50px;
+        margin-top: 800px;
+        right: 60px;
+    }
+
+    #back1 .rit .l3 p{
+        margin-top: 10px;
+        font-size: 9px;
+    }
+
+    #back1 .rit .l3 h3{
+        margin-top: 2px;
+        font-size: 10px;
+    }
+    
+    #back1 .left img{
+        width: 250px;
+        height: 350px;
+        margin-left: 50px;
+        margin-top: 935px;
+    }
+
+    #back1 .left .l4{
+        width: 180px;
+        height: 50px;
+        margin-top: -54px;
+        right: 60px;
+    }
+
+    #back1 .left .l4 p{
+        margin-top: 10px;
+        font-size: 9px;
+    }
+
+    #back1 .left .l4 h3{
+        margin-top: 2px;
+        font-size: 10px;
+    }
+
+    #back1 .pp h1{
+        display: none;
+    }
+
+    #back1 .abt{
+        margin-top: 60px;
+        left: 00px;
+        width: 360px;
+        height: 150px;
+    }
+
+    #back1 .abt .ab{
+        margin-left: 50px; 
+    }
+
+    #back1 .abt .ab p{
+        font-size: 15px;
+    }
+
+    #back1 .abt .ab1{
+        margin-left: 100px;
+    }
+
+    
+    #back1 .abt .ab1 p{
+        font-size: 15px;
+    }
+
+    #back1 .abt .par{
+        width: 250px;
+    }
+
+    #back1 .abt .par p{
+        font-size: 8px;
+    }
+
+    #back1 .footer{
+        width: 360px;
+        margin-top: 245px;
+    }
+    
+}    
