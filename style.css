@@ -443,7 +443,7 @@ body{
     font-size: 8px;
 }
 
-@media screen and (max-width:500px){
+@media(max-width:500px){
 
     #container{
         width: 360px;
