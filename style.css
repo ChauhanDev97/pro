@@ -444,7 +444,7 @@ body{
     font-size: 8px;
 }
 
-@media only screen and (max-width: 767px){
+@media(max-width: auto){
 
     #container{
         width: 360px;
